@@ -4,12 +4,10 @@ if __name__ == "__main__":
     a = 10
     b = 5
     """addition"""
-    print("{} + {} = {}".format(a, b, calculator.add(a,b)))
+    print("{} + {} = {}".format(a, b, calculator.add(a, b)))
     """subtraction"""
     print("{} - {} = {}".format(a, b, calculator.sub(a, b)))
     """multiplication"""
-    print("{} * {} = {}".format(a, b, calculator.mul(a ,b)))
+    print("{} * {} = {}".format(a, b, calculator.mul(a, b)))
     """division"""
     print("{} / {} = {}".format(a, b, calculator.div(a, b)))
-
-
